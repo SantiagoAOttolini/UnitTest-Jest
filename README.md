@@ -1,6 +1,9 @@
-# PROBLEMATICA 12 
-Unit test
+# Unit test - Jest
+Node JS + Jest 
 
+## Install
+
+npm install main the inside the folder
 
 ## Autores ✒️
 
