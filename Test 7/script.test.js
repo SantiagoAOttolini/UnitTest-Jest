@@ -6,11 +6,11 @@ test('multiplication 2³ is equal to 8', () => {
 test('multiplication 3³ is equal to 27', () => {
     expect(potencia(3, 3)).toBe(27);
 });
-test('multiplication 1³ is less than 5', () => {
-    expect(potencia(1, 3) > 5).toBeFalsy();
+test('multiplication 1³ is less than 0', () => {
+    expect(potencia(1, 3) < 0).toBeFalsy();
 });
-test('multiplication 1³ is greater than 5', () => {
-    expect(potencia(1, 3) < 5).toBeTruthy();
+test('multiplication 1³ is greater than 0', () => {
+    expect(potencia(1, 3) > 0 ).toBeTruthy();
 });
 test('multiplication 4³ not to be 0', () => {
     expect(potencia(4, 3)).not.toBe(65);

@@ -10,10 +10,10 @@ test('division 8 / 2 is equal to 4', () => {
     expect(division(8, 2)).toBe(4);
 });
 test('division 2 / 0 is less than 0', () => {
-    expect(division(2, 0) > 0).toBeFalsy();
+    expect(division(2, 0) < -1).toBeFalsy();
 });
 test('division 2 / 1 is greater than 0', () => {
-    expect(division(3, 2) > 0).toBeTruthy();
+    expect(division(2, 1) > 0).toBeTruthy();
 });
 test('division 2 / 1 not to be 0', () => {
     expect(division(2, 1)).not.toBe(0);

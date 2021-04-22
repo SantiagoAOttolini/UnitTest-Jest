@@ -6,8 +6,8 @@ test('sub 2 - 3 is equal to -1', () => {
 test('sub 2 - 2 is equal to 0', () => {
     expect(sub(2, 2)).toBe(0);
 });
-test('sub 2 - 2 is less than 0', () => {
-    expect(sub(2, 2) > 0).toBeFalsy();
+test('sub 5 - 2 is less than 1', () => {
+    expect(sub(5, 2) < 1).toBeFalsy();
 });
 test('sub 3 - 2 is greater than 0', () => {
     expect(sub(3, 2) > 0).toBeTruthy();
