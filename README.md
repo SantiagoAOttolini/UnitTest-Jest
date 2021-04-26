@@ -1,9 +1,9 @@
-# Unit test - Jest
+# PROBLEMATICA 12
 Node JS + Jest 
 
 ## Install
 
-npm install main the inside the folder
+* npm install (inside the main the the folder)
 
 ## Autores ✒️
 
